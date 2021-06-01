@@ -8,9 +8,9 @@
 Article.destroy_all
 User.destroy_all
 
-5.times do
+1.times do
   user = User.create!(
-    email: Faker::Name.first_name + "@yopmail.com",
+    email: "test@example.com",
     password: "123456",
   )
 end
